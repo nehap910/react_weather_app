@@ -90,8 +90,7 @@ function App() {
   return (
     <div className="App">
 
-      {/* SearchEngine component */}
-      <SearchEngine query={query} setQuery={setQuery} search={search} />
+         <SearchEngine query={query} setQuery={setQuery} search={search} />
 
       {weather.loading && (
         <>
